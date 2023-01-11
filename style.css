@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(145deg, #8477ff, #003cff);
+}
+
+#container {
+  position: relative;
+  background: white;
+  border-radius: 60px;
+  box-shadow:  50px 50px 35px #8477ff,
+             -50px -50px 35px #003cff;
+  border: 1px solid inherit;
+  margin: 3rem;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 20vh;
+}
+
+#textEndDate, #textStartDate {
+  font-size: 20px;
+}
+
+#date {
+    font-size: 21px;
+    font-weight: bold;
+    color: black;
+  }
+
+select {
+    font-size: 16px;
+    padding: 10px;
+    color:black;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  table td {
+    font-size: 16px;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+  table td:hover {
+    background-color: rgb(219, 205, 255);
+  }
+  
+  #input-file {
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    color: white;
+  }
